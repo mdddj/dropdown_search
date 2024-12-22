@@ -37,7 +37,7 @@ class ChipProps {
   final BoxConstraints? avatarBoxConstraints;
   final BoxConstraints? deleteIconBoxConstraints;
   final ChipAnimationStyle? chipAnimationStyle;
-  final WidgetStateProperty<Color?>? color;
+  final MaterialStateProperty<Color?>? color;
 
   const ChipProps({
     this.avatar,
@@ -114,7 +114,7 @@ class ChipProps {
     BoxConstraints? avatarBoxConstraints,
     BoxConstraints? deleteIconBoxConstraints,
     ChipAnimationStyle? chipAnimationStyle,
-    WidgetStateProperty<Color?>? color,
+    MaterialStateProperty<Color?>? color,
   }) {
     return ChipProps(
       avatar: avatar ?? this.avatar,

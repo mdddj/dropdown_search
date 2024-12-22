@@ -192,7 +192,7 @@ class ClickProps {
   ///  * The Material Design specification for overlay colors and how they
   ///    match a component's state:
   ///    <https://material.io/design/interaction/states.html#anatomy>.
-  final WidgetStateProperty<Color?>? overlayColor;
+  final MaterialStateProperty<Color?>? overlayColor;
 
   /// The splash color of the ink response. If this property is null then the
   /// splash color of the theme, [ThemeData.splashColor], will be used.
